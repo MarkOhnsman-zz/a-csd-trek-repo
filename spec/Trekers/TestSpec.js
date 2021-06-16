@@ -1,5 +1,5 @@
 describe("test", () => {
-  it("tests", () => {
+  it("testable tests", () => {
     expect(true).toBeTrue();
   });
 });

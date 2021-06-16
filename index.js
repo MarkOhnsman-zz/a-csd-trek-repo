@@ -1,2 +1,1 @@
-require = require("esm")(module);
-module.exports = require("./main.js");
+console.log("hello world");
