@@ -12,6 +12,7 @@ class Shield {
     this._isRaised = true;
   }
 
+  // Implementation Details (NO Test)
   receiveEnergy(energy) {
     // ANCHOR surplus
     this._energyLevel += proviedEnergy;
@@ -21,8 +22,10 @@ class Shield {
     }
   }
 
+  // Implementation Details (NO Test)
   provideEnergy(energy) {}
 
+  // RE-name
   transferEnergy(proviedEnergy) {
     let returnedEnergy = 0;
     this._energyLevel += proviedEnergy;
