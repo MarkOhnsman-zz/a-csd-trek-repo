@@ -1,8 +1,14 @@
-describe("test", () => {
-  it("testable tests", () => {
-    expect(false).toBeTrue();
+let Shield = require("../../models/Shield.js");
+
+describe("shield", () => {
+  it("Starts Down", () => {
+    let shield = new Shield();
+    expect(shield.isRaised()).toBeFalse();
   });
-  it("testable tests", () => {
-    expect(true).toBeTrue();
+
+  it("Can be raised", () => {
+    let shield = new Shield();
+    shield.raise();
+    expect(shield.isRaised()).toBeTrue();
   });
 });
