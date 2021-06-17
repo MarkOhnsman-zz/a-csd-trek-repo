@@ -130,18 +130,60 @@
         "path": "./client"
     },
     "timer": {
-        "jasmineStart": "2021-06-17T14:38:01.112Z",
-        "jasmineDone": "2021-06-17T14:38:01.198Z"
+        "jasmineStart": "2021-06-17T16:20:45.601Z",
+        "jasmineDone": "2021-06-17T16:20:45.756Z"
     },
     "counts": {
-        "pending": 1,
-        "passed": 1
+        "passed": 8,
+        "pending": 1
     },
     "sequence": [
         {
-            "id": "spec1",
-            "description": "Can be raised",
-            "fullName": "shield Can be raised",
+            "id": "spec3",
+            "description": "Can have energy added",
+            "fullName": "shield Energy Transfer Can have energy added",
+            "failedExpectations": [],
+            "passedExpectations": [
+                {
+                    "matcherName": "toBe",
+                    "message": "Passed.",
+                    "stack": "",
+                    "passed": true
+                }
+            ],
+            "deprecationWarnings": [],
+            "pendingReason": "",
+            "duration": null,
+            "properties": null,
+            "status": "passed",
+            "stoped": "2021-06-17T16:20:45.617Z",
+            "prefix": "shield Energy Transfer "
+        },
+        {
+            "id": "spec4",
+            "description": "Can have energy removed",
+            "fullName": "shield Energy Transfer Can have energy removed",
+            "failedExpectations": [],
+            "passedExpectations": [
+                {
+                    "matcherName": "toBe",
+                    "message": "Passed.",
+                    "stack": "",
+                    "passed": true
+                }
+            ],
+            "deprecationWarnings": [],
+            "pendingReason": "",
+            "duration": null,
+            "properties": null,
+            "status": "passed",
+            "stoped": "2021-06-17T16:20:45.621Z",
+            "prefix": "shield Energy Transfer "
+        },
+        {
+            "id": "spec8",
+            "description": "Only returns available energy",
+            "fullName": "shield Energy Transfer Only returns available energy",
             "failedExpectations": [],
             "passedExpectations": [],
             "deprecationWarnings": [],
@@ -149,8 +191,71 @@
             "duration": null,
             "properties": null,
             "status": "pending",
-            "stoped": "2021-06-17T14:38:01.115Z",
-            "prefix": "shield "
+            "stoped": "2021-06-17T16:20:45.627Z",
+            "prefix": "shield Energy Transfer "
+        },
+        {
+            "id": "spec6",
+            "description": "Cannot have energy decreased below 0",
+            "fullName": "shield Energy Transfer Cannot have energy decreased below 0",
+            "failedExpectations": [],
+            "passedExpectations": [
+                {
+                    "matcherName": "toBe",
+                    "message": "Passed.",
+                    "stack": "",
+                    "passed": true
+                }
+            ],
+            "deprecationWarnings": [],
+            "pendingReason": "",
+            "duration": null,
+            "properties": null,
+            "status": "passed",
+            "stoped": "2021-06-17T16:20:45.630Z",
+            "prefix": "shield Energy Transfer "
+        },
+        {
+            "id": "spec5",
+            "description": "Cannot have energy increased above 10000",
+            "fullName": "shield Energy Transfer Cannot have energy increased above 10000",
+            "failedExpectations": [],
+            "passedExpectations": [
+                {
+                    "matcherName": "toBe",
+                    "message": "Passed.",
+                    "stack": "",
+                    "passed": true
+                }
+            ],
+            "deprecationWarnings": [],
+            "pendingReason": "",
+            "duration": null,
+            "properties": null,
+            "status": "passed",
+            "stoped": "2021-06-17T16:20:45.631Z",
+            "prefix": "shield Energy Transfer "
+        },
+        {
+            "id": "spec7",
+            "description": "Returns energy surplus if above 10000",
+            "fullName": "shield Energy Transfer Returns energy surplus if above 10000",
+            "failedExpectations": [],
+            "passedExpectations": [
+                {
+                    "matcherName": "toBe",
+                    "message": "Passed.",
+                    "stack": "",
+                    "passed": true
+                }
+            ],
+            "deprecationWarnings": [],
+            "pendingReason": "",
+            "duration": null,
+            "properties": null,
+            "status": "passed",
+            "stoped": "2021-06-17T16:20:45.638Z",
+            "prefix": "shield Energy Transfer "
         },
         {
             "id": "spec0",
@@ -170,7 +275,49 @@
             "duration": null,
             "properties": null,
             "status": "passed",
-            "stoped": "2021-06-17T14:38:01.150Z",
+            "stoped": "2021-06-17T16:20:45.687Z",
+            "prefix": "shield "
+        },
+        {
+            "id": "spec1",
+            "description": "Can be raised",
+            "fullName": "shield Can be raised",
+            "failedExpectations": [],
+            "passedExpectations": [
+                {
+                    "matcherName": "toBeTrue",
+                    "message": "Passed.",
+                    "stack": "",
+                    "passed": true
+                }
+            ],
+            "deprecationWarnings": [],
+            "pendingReason": "",
+            "duration": null,
+            "properties": null,
+            "status": "passed",
+            "stoped": "2021-06-17T16:20:45.696Z",
+            "prefix": "shield "
+        },
+        {
+            "id": "spec2",
+            "description": "Initial Energy Level of 5000",
+            "fullName": "shield Initial Energy Level of 5000",
+            "failedExpectations": [],
+            "passedExpectations": [
+                {
+                    "matcherName": "toBe",
+                    "message": "Passed.",
+                    "stack": "",
+                    "passed": true
+                }
+            ],
+            "deprecationWarnings": [],
+            "pendingReason": "",
+            "duration": null,
+            "properties": null,
+            "status": "passed",
+            "stoped": "2021-06-17T16:20:45.722Z",
             "prefix": "shield "
         }
     ]
